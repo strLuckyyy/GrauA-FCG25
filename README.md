@@ -5,8 +5,9 @@
 
 ## Informações gerais
 
-#### Entrega: até **10/05/2025**, via Moodle
-#### Grupo: Individual ou em grupos de até 3 participantes
+Entrega: até **10/05/2025**, via Moodle
+
+Grupo: Individual ou em grupos de até 3 participantes
 
 O objetivo deste trabalho é desenvolver um protótipo de jogo 2D,
 utilizando a API Gráfica OpenGL (moderna), aplicando os conceitos vistos
@@ -15,48 +16,41 @@ em aula. Para o Grau A, os conhecimentos sobre *desenho* *de*
 mapeamento de textura serão explorados.
 
 ## Instruções de desenvolvimento
-#### O programa deve possuir, como requisitos mínimos:
+O programa deve possuir, como requisitos mínimos:
 
 • Utilizar a API na versão 3.3 ou superior, o que caracteriza que é obrigatória a
 implementação de shaders.
 
-• Correta criação e utilização correta dos buffers de geometria o VAO, VBO(s) e EBO
-(este último é opcional)
+• Correta criação e utilização correta dos buffers de geometria 
+  - VAO, VBO(s) e EBO (este último é opcional)
 
-• Correta utilização das transformações de projeção e nos objetos o Como está mapeada
-a matriz de projeção ortográfica 2D?
+• Correta utilização das transformações de projeção e nos objetos 
+  - Como está mapeada a matriz de projeção ortográfica 2D?
+  - Como são feitas e atualizadas as transformações nos objetos da cena?
 
-•Como são feitas e atualizadas as transformações nos objetos da cena?
+#### Sprites como textura mapeadas em polígonos, para o desenho de:
 
-• *Sprites* como textura mapeadas em polígonos, para o desenho de:
+• Personagem, objetos e itens <u>animados</u> (utilizando *spritesheets*) 
 
-• personagem, objetos e itens <u>animados</u> (utilizando *spritesheets*) o imagens de
-fundo (uso de camadas)
-
-• em fundos multi-camadas podemos implementar o conceito de *parallax* *scrolling*
+• Imagens de fundo (uso de camadas)
+  - Em fundos multi-camadas podemos implementar o conceito de *parallax* *scrolling*
 
 • Controle da movimentação do personagem (com input de teclado e/ou mouse)
+  - Colisão entre os *sprites* (conceito de *hitboxes*), para ações como coletar itens, tiros etc., conforme a proposta do jogo)
 
-•Colisão entre os *sprites* (conceito de *hitboxes*), para ações como coletar itens,
-tiros etc., conforme a proposta do jogo)
-
-### É recomendado que o jogo tenha um arquivo de configuração, para carregar imagens das camadas e demais configurações necessárias.
+É recomendado que o jogo tenha um arquivo de configuração, para carregar imagens das camadas e demais configurações necessárias.
 
 ## SUGESTÕES DE JOGOS
 
 A escolha do tipo de jogo está a critério do aluno. Se estiverem sem nenhuma “inspiração”,
 seguem algumas ideias que se encaixam perfeitamente em nosso escopo:
 
-• Talvez o jogo mais simples que contenha tudo que precisamos é daqueles em que caem
-objetos (por exemplo, de cima pra baixo) e você precisa pegá-los movimentando um outro
-objeto (por exemplo, esquerda e direita). O primeiro jogo nessa linha foi o Catch do
-Atari (1977), mas existem milhares de jogos similares, normalmente com maçãs caindo.
+• Talvez o jogo mais simples que contenha tudo que precisamos é daqueles em que caem objetos (por exemplo, de cima pra baixo) e você precisa pegá-los movimentando um outro objeto (por exemplo, esquerda e direita). O primeiro jogo nessa linha foi o Catch do Atari (1977), mas existem milhares de jogos similares, normalmente com maçãs caindo.
 
-• Jogos do tipo endless runner com visão lateral também se enquadram bem no escopo,
-como por exemplo o do dino do Google
+• Jogos do tipo endless runner com visão lateral também se enquadram bem no escopo, como por exemplo o do dino do Google
 
 • Jogos antigos de atari ou jogos próprios para fliperama mais antigos
-são ótimas pedidas também. Você pode se inspirar em sites como
+são ótimas pedidas também. Você pode se inspirar em sites como https://www.retrogames.cz/index.php
 
 ## EXTRAS (opcionais):
 
@@ -66,7 +60,9 @@ são ótimas pedidas também. Você pode se inspirar em sites como
 [<u>FreeType)</u>](http://www.freetype.org/) • Telas de entrada, de
 jogo e *gameover*
 
-• Som (SDL mixer, OpenAL, FMOD etc) Apresentação e entrega
+• Som (SDL mixer, OpenAL, FMOD etc) 
+
+### Apresentação e entrega
 
 • A apresentação será feita em aula (presencial ou remota, conforme
 recomendação da professora). É importante e de grande peso na
@@ -98,13 +94,9 @@ houver)
 início, logo após a apresentação). Se julgar necessário, pode mostrar
 em outros momentos junto com a explicação.
 
-• DOCUMENTAÇÃO É TUDO! Não esqueça de adicionar ao diretório do
-projeto um arquivo LEIAME.txt com informações pertinentes (como
-instruções para compilação e uso do programa)
+#### DOCUMENTAÇÃO É TUDO! Não esqueça de adicionar ao diretório do projeto um arquivo LEIAME.txt com informações pertinentes (como instruções para compilação e uso do programa)
 
-• COMUNICAÇÃO E COLABORAÇÃO SÃO AS CHAVES PARA O SUCESSO. PROIBIDO
-FICAR TRANCADO COM DÚVIDAS! Utilize o nosso canal da disciplina no
-Teams.
+#### COMUNICAÇÃO E COLABORAÇÃO SÃO AS CHAVES PARA O SUCESSO. PROIBIDO FICAR TRANCADO COM DÚVIDAS! Utilize o nosso canal da disciplina no Teams.
 
 ## BOM TRABALHO!
 
